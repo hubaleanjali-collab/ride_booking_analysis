@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep raw data local if sensitive/large)
+data/**/*.csv
+data/**/*.xlsx
+!data/Dataset.csv  # keep example dataset for local work, remove this line if private
+
+# OS
+.DS_Store
+Thumbs.db
